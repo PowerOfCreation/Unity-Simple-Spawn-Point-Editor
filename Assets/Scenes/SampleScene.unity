@@ -297,6 +297,9 @@ MonoBehaviour:
   - {x: -9.296826, y: -3.8750837, z: -13.218712}
   - {x: 7.771984, y: -3.8750842, z: -17.913542}
   - {x: -1.9283829, y: -3.8750806, z: 12.328277}
+  raycastLayerMask:
+    serializedVersion: 2
+    m_Bits: 1
 --- !u!4 &1260487270
 Transform:
   m_ObjectHideFlags: 0

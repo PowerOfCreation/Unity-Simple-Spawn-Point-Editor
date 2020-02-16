@@ -84,7 +84,7 @@ public class SpawnPointsEditor : Editor
     {
         Ray mouseRay = HandleUtility.GUIPointToWorldRay(guiEvent.mousePosition);
 
-        if (Physics.Raycast(mouseRay, out RaycastHit hit))
+        if (Physics.Raycast(mouseRay, out RaycastHit hit, Mathf.Infinity, spawnPoints.raycastLayerMask))
         {
             Vector3 mousePosition = hit.point;
 
